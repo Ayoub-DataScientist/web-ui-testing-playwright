@@ -272,7 +272,7 @@ This project demonstrates:
 
 - [qa-portfolio-overview](https://github.com/Ayoub-DataScientist/qa-portfolio-overview) - Portfolio map and overview
 - [api-testing-automation](https://github.com/Ayoub-DataScientist/api-testing-automation) - API testing examples
-- [test-automation-framework-from-scratch](https://github.com/Ayoub-DataScientist/test-automation-framework-from-scratch) - Advanced framework
+- [test-automation-framework](https://github.com/Ayoub-DataScientist/test-automation-framework) - Advanced framework
 
 ---
 
