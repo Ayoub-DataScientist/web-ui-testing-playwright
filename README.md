@@ -1,6 +1,6 @@
 # Web UI Testing with Playwright & Pytest
 
-## 🎯 Project Overview
+##  Project Overview
 
 This repository demonstrates **professional automated UI testing** using **Playwright** and **Pytest**. It tests a demo ecommerce website and showcases industry-standard practices including the **Page Object Model (POM)**, **Pytest fixtures**, **parallel execution**, and **comprehensive test strategy design**.
 
@@ -14,7 +14,7 @@ This repository demonstrates **professional automated UI testing** using **Playw
 
 ---
 
-## 📋 Test Strategy
+##  Test Strategy
 
 ### Scope
 This test suite covers critical user journeys on a demo ecommerce platform:
@@ -41,7 +41,7 @@ This test suite covers critical user journeys on a demo ecommerce platform:
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Tool | Version | Purpose |
 | :--- | :--- | :--- |
@@ -53,7 +53,7 @@ This test suite covers critical user journeys on a demo ecommerce platform:
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 web-ui-testing-playwright/
@@ -83,7 +83,7 @@ web-ui-testing-playwright/
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 - Python 3.9 or higher
@@ -112,7 +112,7 @@ web-ui-testing-playwright/
 
 ---
 
-## ▶️ Running Tests
+##  Running Tests
 
 ### Run all tests
 ```bash
@@ -146,7 +146,7 @@ pytest tests/ -m "smoke"
 
 ---
 
-## 📝 Page Object Model (POM)
+##  Page Object Model (POM)
 
 The Page Object Model is a design pattern that improves test maintainability by abstracting page elements and interactions into reusable classes.
 
@@ -194,7 +194,7 @@ def test_invalid_login(page, login_page):
 
 ---
 
-## 🔧 Fixtures
+##  Fixtures
 
 Pytest fixtures provide reusable setup and teardown logic for tests.
 
@@ -226,7 +226,7 @@ def login_page(page):
 
 ---
 
-## ⚡ Parallel Execution
+##  Parallel Execution
 
 Tests are configured to run in parallel using `pytest-xdist` for faster feedback:
 
@@ -241,7 +241,7 @@ pytest tests/ -n auto  # Uses all available CPU cores
 
 ---
 
-## 📊 Test Reporting
+##  Test Reporting
 
 Tests generate HTML reports for easy review:
 
@@ -257,7 +257,7 @@ The report includes:
 
 ---
 
-## 🎓 Key Learnings
+##  Key Learnings
 
 This project demonstrates:
 1. **Page Object Model:** Separating test logic from page interactions
@@ -268,7 +268,7 @@ This project demonstrates:
 
 ---
 
-## 🔗 Related Repositories
+##  Related Repositories
 
 - [qa-portfolio-overview](https://github.com/Ayoub-DataScientist/qa-portfolio-overview) - Portfolio map and overview
 - [api-testing-automation](https://github.com/Ayoub-DataScientist/api-testing-automation) - API testing examples
@@ -276,6 +276,6 @@ This project demonstrates:
 
 ---
 
-## 📄 License
+##  License
 
 This project is open source and available under the MIT License.
